@@ -1,0 +1,91 @@
+/* NOTE: while editing this file take note of following points */
+/* color must be in hex format */
+/* font size must be in responsive format such as vw, em or percent*/
+/* all the properties should be in abphabetic order */
+/* body styles */
+/* Roboto Mono Regular */
+@font-face {
+  font-family: "roboto-mono-regular";
+  src: url("../assets/fonts/roboto-mono/roboto-mono-regular/roboto-mono-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/roboto-mono/roboto-mono-regular/roboto-mono-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../assets/fonts/roboto-mono/roboto-mono-regular/roboto-mono-regular.otf") format("opentype"),
+    /* Open Type Font */
+    url("../assets/fonts/roboto-mono/roboto-mono-regular/roboto-mono-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../assets/fonts/roboto-mono/roboto-mono-regular/roboto-mono-regular.woff") format("woff"),
+    /* Modern Browsers */
+    url("../assets/fonts/roboto-mono/roboto-mono-regular/roboto-mono-regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-style: normal;
+}
+
+/* DM Mono */
+@font-face {
+  font-family: "dm-mono";
+  src: url("../assets/fonts/dm_mono/dmmono_regular.eot") format("embedded-opentype");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/dm_mono/dmmono_regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../assets/fonts/dm_mono/dmmono_regular.otf") format("opentype"),
+    /* Open Type Font */
+    url("../assets/fonts/dm_mono/dmmono_regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../assets/fonts/dm_mono/dmmono_regular.woff") format("woff"),
+    /* Modern Browsers */
+    url("../assets/fonts/dm_mono/dmmono_regular.woff2") format("woff2");
+  /* Modern Browsers */
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'roboto-mono-regular', monospace;
+  text-align: center;
+}
+
+/* universal links styles */
+a {
+  background-color: inherit;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* universal headers styles */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: capitalize;
+}
+
+/* navbar links styles */
+.navbar a {
+  text-transform: capitalize;
+}
+
+/* universal paragraph styles */
+p {
+  margin-left: 16em;
+  margin-right: 16em;
+  text-align: justify;
+}
+
+/* footer styles */
+footer {
+  background-color: #fff;
+  color: #000;
+  margin-top: 30em;
+  margin-left: 16em;
+  margin-right: 16em;
+}
+
+/* footer images styles */
+footer img {
+  vertical-align: middle;
+}
+
+/* footer link styles */
+.footer-social-links a {
+  background-color: inherit;
+  color: #000;
+  text-transform: capitalize;
+}
